@@ -3,7 +3,7 @@ import java.io.Serializable;
 public class Cliente implements Serializable {
     private static final long serialVersionUID = 1L;
     private int idCliente;
-    private String nombre,email;
+    private String nombre, email;
 
     public Cliente(int idCliente, String nombre, String email) {
         this.idCliente = idCliente;

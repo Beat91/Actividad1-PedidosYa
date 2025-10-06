@@ -21,7 +21,6 @@ public class Entrada {
 
         //GENERAR FICHERO:
 
-
         //1-CSV
         File file = new File("datos.csv");
         PrintWriter printWriter = null;
